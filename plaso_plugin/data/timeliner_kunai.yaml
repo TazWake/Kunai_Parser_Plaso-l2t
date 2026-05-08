@@ -1,0 +1,5 @@
+---
+data_type: 'linux:kunai:event'
+attribute_mappings:
+- name: 'recorded_time'
+  description: 'Event Recorded'

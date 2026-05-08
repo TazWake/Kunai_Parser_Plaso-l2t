@@ -1,0 +1,7 @@
+description: Kunai files
+type: include
+path_separator: '/'
+paths:
+- '/var/log/kunai/events.log'
+- '/var/log/kunai/events.log.[0-9]+'
+- '/var/log/kunai/events.log.[0-9]+.gz'
