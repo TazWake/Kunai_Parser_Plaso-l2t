@@ -12,7 +12,7 @@ class KunaiParserTest(unittest.TestCase):
     """Tests for dependency-light Kunai parsing."""
 
     def test_parse_sample_log(self) -> None:
-        with open("testdata/events.log", "r", encoding="utf-8") as file_object:
+        with open("test_data/kunai.log", "r", encoding="utf-8") as file_object:
             result = kunai.parse_lines(file_object)
 
         self.assertEqual(525, len(result.events))

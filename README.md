@@ -18,7 +18,7 @@ The parser has been developed against Plaso / Log2Timeline `20260119`.
 - `plaso_plugin/data/timeliner_kunai.yaml`: timeliner mapping required for event creation.
 - `plaso_plugin/data/formatter_kunai.yaml`: YAML formatter used by `psort.py`.
 - `scripts/install_plaso_kunai.py`: installer for the active Plaso Python environment.
-- `tests/`: local parser unit tests using `testdata/events.log`.
+- `tests/`: local parser unit tests using `test_data/kunai.log`.
 
 ## Install
 
