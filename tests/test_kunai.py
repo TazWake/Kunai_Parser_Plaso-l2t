@@ -15,7 +15,7 @@ class KunaiParserTest(unittest.TestCase):
         with open("test_data/kunai.log", "r", encoding="utf-8") as file_object:
             result = kunai.parse_lines(file_object)
 
-        self.assertEqual(525, len(result.events))
+        self.assertEqual(921, len(result.events))
         self.assertEqual(1, len(result.errors))
         self.assertEqual(
             {"execve", "execve_script", "file_create", "file_unlink", "kill", "mmap_exec", "send_data"},
